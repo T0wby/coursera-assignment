@@ -1,0 +1,56 @@
+* { 
+  box-sizing:border-box 
+}
+
+body {
+    font-size: 16px;
+    background-color: #fff;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+  }
+
+/** HEADER **/
+header {
+  border-style: solid;
+  border-width: 4px;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  text-decoration: none;
+}
+
+/*.nav-item {
+  padding: 8px 100%;
+}*/
+
+ul {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  background: white;
+}
+
+#test button:active{
+  background: black;
+}
+.navbar-header button.navbar-toggler {
+  clear: both;
+}
+
+/** MAIN CONTENT **/
+#maintitle {
+  margin: 30px;
+}
+
+
+article {
+  background-color: gray;
+  padding: 7px;
+  margin-bottom: 20px;
+}
