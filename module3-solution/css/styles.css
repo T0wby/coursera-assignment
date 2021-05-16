@@ -24,12 +24,6 @@ header {
 
 .navbar-header {
   width: 100%;
-  height: 50px;
-}
-
-.navbar-brand {
-  position: absolute;
-  left: 0;
 }
 
 .navbar-brand h1 { /* Company name */
@@ -37,7 +31,6 @@ header {
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   text-decoration: none;
-  padding: 5px;
 }
 
 ul {
@@ -51,9 +44,11 @@ ul {
 }
 
 #test {
-  margin-left: 80%;
-  margin-right: 20%;
+  position: absolute;
+  right: 0;
   margin-top: 7px;
+  margin-right: 5px;
+  border-color: black;
 }
 
 /** MAIN CONTENT **/
